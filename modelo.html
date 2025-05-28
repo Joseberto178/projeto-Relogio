@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>modelo de exercicio</title>
-    <link rel="stylesheet" href="estilo.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Verificar Hora</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <h1>titulo</h1>
-    </header>
-    <section>
-        <div>
-            testando...
-        </div>
-        <div>
-            ola
-        </div>
+  <main>
+    <section id="container">
+      <h1>Que horas são?</h1>
+      <form id="form-hora">
+        <input type="number" id="inputHora" placeholder="Digite uma hora (0-23)" min="0" max="23" required/>
+        <button type="submit">Verificar</button>
+      </form>
+      <div id="resultado">
+        <p id="mensagem">Digite uma hora para ver a imagem correspondente.</p>
+        <img id="imagem" src="" alt="Imagem do horário" style="display: none;" />
+      </div>
     </section>
     <footer>
-        <p>&copy; cursoemvideo</p>
-    </footer>
-    <script src="script.js"></script>
+  <p>Projeto desenvolvido como exercício do <strong>Curso em Vídeo</strong> com adaptações próprias.</p>
+</footer>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
+
