@@ -2,6 +2,8 @@
 
 Este projeto é uma aplicação simples feita com **HTML, CSS e JavaScript**, onde o usuário informa a hora atual e, com base nesse horário, uma imagem correspondente (manhã, tarde ou noite) é exibida dinamicamente na tela.
 
+> 🔗 **Acesse online**: [Clique aqui para ver o projeto publicado](https://projeto-relogio-eta.vercel.app/)
+
 ## 📸 Funcionalidades
 
 - Formulário para digitar a hora do dia
